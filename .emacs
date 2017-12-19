@@ -23,6 +23,8 @@
 
 (set-fringe-mode '(0 . 0))
 
+(setq column-number-mode t)
+
 (setq-default c-basic-offset 4)
 (setq c-default-style "k&r"
       c-basic-offset 4)
@@ -43,8 +45,8 @@
 (prefer-coding-system 'utf-8)
 
 (add-to-list 'default-frame-alist
-             '(font . "DejaVu Sans Mono-11:antialias=natural"))
-(set-default-font "DejaVu Sans Mono-11:antialias=natural")
+             '(font . "DejaVu Sans Mono-11:antialias=natural:weight=bold"))
+(set-default-font "DejaVu Sans Mono-11:antialias=natural:weight=bold")
 
 
 (defun display-startup-echo-area-message ()
